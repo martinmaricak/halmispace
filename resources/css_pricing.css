@@ -1,0 +1,83 @@
+
+
+
+	[id="pricingDialog"] article {
+
+		background-image: url("../images/pricing.png");
+		padding: 111px;
+
+	}
+
+
+	.my [id="pricingDialog"] .modal-dialog {
+
+		width: 846px;
+		overflow: hidden;
+		height: 424px;
+		background-color: transparent;
+		box-shadow: none;
+		border: 0;
+		padding: 0;
+		background-position: 0;
+		background-repeat: no-repeat;
+
+	}
+
+
+	[id="pricingDialog"] [class~="box"] {
+
+		width: 257px;
+		float: left;
+		padding: 10px;
+		margin-left: 23px;
+		font-size: 13px;
+		margin-top: 23px;
+
+	}
+
+
+	[id="pricingDialog"] h3 {
+
+		color: #0b6099;
+		font-size: 32px;
+		font-weight: 300;
+
+	}
+
+
+	[id="pricingDialog"] [class~="desc"] {
+
+		color: #9a9a9a;
+		font-size: 13px;
+
+	}
+
+
+	[id="pricingDialog"] hr {
+
+		width: 28px;
+		border-color: #cccccc;
+
+	}
+
+
+	[id="pricingDialog"] [class~="benefits"] {
+
+		color: #2c2c2c;
+		font-size: 13px;
+		line-height: 26px;
+
+	}
+
+
+	[id="pricingDialog"] button {
+
+		float: left;
+		background-color: transparent;
+		border: 2px solid #2677b4;
+		display: block;
+		width: 240px;
+		margin: 30px auto 0;
+
+	}
+
