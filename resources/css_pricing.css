@@ -1,35 +1,27 @@
 
 
-
-	[id="pricingDialog"] article {
-
-		background-image: url("../images/pricing.png");
-		padding: 111px;
-
-	}
-
-
 	.my [id="pricingDialog"] .modal-dialog {
 
-		width: 846px;
+		width: 869px;
 		overflow: hidden;
 		height: 424px;
 		background-color: transparent;
 		box-shadow: none;
 		border: 0;
-		padding: 0;
+		padding: 0 0 0 12px;
 		background-position: 0;
 		background-repeat: no-repeat;
+		background-image: url("../images/pricing.png");
 
 	}
 
 
 	[id="pricingDialog"] [class~="box"] {
 
-		width: 257px;
+		width: 271px;
 		float: left;
 		padding: 10px;
-		margin-left: 23px;
+		margin-left: 0px;
 		font-size: 13px;
 		margin-top: 23px;
 
@@ -78,6 +70,18 @@
 		display: block;
 		width: 240px;
 		margin: 30px auto 0;
+		color: #2677b4;
+		font-weight: 300;
+		padding: 10px 0;
+
+	}
+
+
+	[id="pricingDialog"] button:hover {
+
+		border-color: #19527f;
+		background-color: #dfdfdf;
+		opacity: 0.8;
 
 	}
 
