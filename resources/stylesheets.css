@@ -296,6 +296,87 @@
 	}
 
 
+	.my [id="partnersCarousel"] {
+
+		width: 422px;
+
+	}
+
+
+	.my [id="partnersDescr"] {
+
+		width: 422px;
+		float: right;
+		background: white;
+		padding: 41px 36px;
+
+	}
+
+
+	.my [id="partnersModal"] .modal-dialog {
+
+		width: 846px;
+		overflow: hidden;
+		height: 424px;
+
+	}
+
+
+	[id="partnersModal"] h2 {
+
+		color: #0b6099;
+		font-weight: 300;
+
+	}
+
+
+	[id="partnersModal"] input[type="text"] {
+
+		margin: 7px;
+		border: 1px solid #7f8589;
+		font-size: 14px;
+		padding: 8px 16px;
+		width: 94%;
+
+	}
+
+
+	[id="partnersModal"] label {
+
+		color: #2c2c2c;
+		font-size: 13px;
+		font-style: italic;
+		display: inline-block;
+		opacity: 0.6;
+		font-weight: 400;
+		max-width: 231px;
+		line-height: 15px;
+		margin-top: 40px;
+
+	}
+
+
+	[id="partnersModal"] button {
+
+		border: 2px solid #2677b4;
+		background: transparent;
+		color: #2677b4;
+		font-weight: 300;
+		font-size: 13px;
+		padding: 12px 28px;
+
+	}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
