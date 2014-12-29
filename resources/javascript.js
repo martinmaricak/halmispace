@@ -9,13 +9,26 @@
 			keyboard : false
 		});
 
-		/*
+
 		$('#partnersCarousel').carousel({
 			interval: 2000,
 			keyboard : false
 		});
-		*/
+
 
 	});
 
 })();
+
+
+(function(){
+
+	"use strict";
+
+	$("#pricingDialog button").on("click", function(){
+		$("#pricingDialog").modal("toggle");
+		$("#partnersModal").modal("toggle");
+	})
+
+})();
+

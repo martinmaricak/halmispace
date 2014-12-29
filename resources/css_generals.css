@@ -3,6 +3,7 @@
     html {
 
         overflow: hidden;
+		height: 100%;
 
     }
 
@@ -12,6 +13,7 @@
         font-family: "Open Sans", sans-serif;
         font-size: 18px;
         line-height: 28px;
+		height: 100%;
 
     }
 
@@ -21,6 +23,7 @@
         position: absolute;
         width: 100%;
         z-index: -2;
+		height: 100%;
 
     }
 
@@ -56,9 +59,9 @@
 
 	[class~="main"] {
 
-		max-width: 1400px;
+		max-width: 1500px;
 		margin: 0 auto;
-		padding-top: 39px;
+		padding: 40px 50px 0;
 
 	}
 
@@ -104,6 +107,14 @@
 		-moz-transition: all 0.5s ease;
 		-ms-transition: all 0.5s ease;
 		-o-transition: all 0.5s ease;
+
+	}
+
+
+	[id~="nav"] a:focus {
+
+		outline: none;
+		text-decoration: none;
 
 	}
 
@@ -223,18 +234,24 @@
 		color: white;
 		display: block;
 		text-align: center;
-		margin-top: 250px;
 		font-weight: 300;
 		font-size: 14px;
 		opacity: 0.5;
+		position: absolute;
+		bottom: 98px;
+		left: 50%;
+		margin-left: -30px;
 
 	}
 
 
 	img[class="partners"] {
 
-		margin: 21px auto 0;
 		display: block;
+		position: absolute;
+		bottom: 23px;
+		left: 50%;
+		margin-left: -363px;
 
 	}
 
@@ -247,3 +264,12 @@
 	}
 
 
+	[id="albatrosmedia"],
+	[id="premiumhosting"],
+	[id="indievisual"] {
+
+		color: red;
+		width: 100px;
+		height: 100px;
+
+	}
