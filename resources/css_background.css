@@ -1,0 +1,45 @@
+
+
+
+	html, body {
+
+		height:100%;
+
+	}
+
+
+	.carousel,.item,.active {
+
+		height:100%;
+
+	}
+
+
+	.carousel-inner {
+
+		height:100%;
+
+	}
+
+
+	.carousel-inner>.item>img {
+
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 2800px;
+		height: 1600px;
+		max-width: none;
+
+	}
+
+
+
+
+	@media (min-width: 200px) {
+		.carousel-inner>.item>img { width: 1672px; height: 1000px; }
+	}
+
+	@media (min-width: 1200px) {
+		.carousel-inner>.item>img { width: 2006px; height: 1200px; }
+	}
