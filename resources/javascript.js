@@ -9,10 +9,12 @@
 			keyboard : false
 		});
 
+		/*
 		$('#partnersCarousel').carousel({
 			interval: 2000,
 			keyboard : false
 		});
+		*/
 
 	});
 

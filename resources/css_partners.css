@@ -31,6 +31,7 @@
 
 		color: #0b6099;
 		font-weight: 300;
+		margin: -4px 0 26px 6px;
 
 	}
 
@@ -48,15 +49,19 @@
 
 	[id="partnersModal"] label {
 
-		color: #2c2c2c;
+		color: rgba(44, 44, 44, 0.6);
 		font-size: 13px;
 		font-style: italic;
 		display: inline-block;
 		opacity: 0.6;
 		font-weight: 400;
-		max-width: 231px;
+		max-width: 185px;
 		line-height: 15px;
-		margin-top: 40px;
+		margin-top: 45px;
+		position: relative;
+		top: 7px;
+		left: 5px;
+		margin-right: 20px;
 
 	}
 
@@ -70,4 +75,74 @@
 		font-size: 13px;
 		padding: 12px 28px;
 
+		transition: all 0.5s ease;
+		-webkit-transition: all 0.5s ease;
+		-moz-transition: all 0.5s ease;
+		-ms-transition: all 0.5s ease;
+		-o-transition: all 0.5s ease;
+
 	}
+
+
+	[id="partnersModal"] button:hover {
+
+		border-color: #19527f;
+		background-color: #19527f;
+		opacity: 0.8;
+		color: white;
+
+		transition: all 0.5s ease;
+		-webkit-transition: all 0.5s ease;
+		-moz-transition: all 0.5s ease;
+		-ms-transition: all 0.5s ease;
+		-o-transition: all 0.5s ease;
+
+	}
+
+
+	[id="partnersModal"] .carousel-indicators li {
+
+		width: 8px;
+		height: 8px;
+		opacity: 0.7;
+
+	}
+
+
+	[id="partnersModal"] .carousel-caption {
+
+		color: rgba(255, 255, 255, 0.89);
+		font-size: 14px;
+
+	}
+
+
+	[id="partnersModal"] [class~="persona"] {
+
+		margin-top: 35px;
+		text-transform: uppercase;
+
+	}
+
+
+	[id="partnersModal"] [class~="text"] {
+
+		font-size: 16px;
+		width: 332px;
+		position: relative;
+		left: -37px;
+		top: -44px;
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+

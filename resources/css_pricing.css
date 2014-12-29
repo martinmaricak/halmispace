@@ -3,7 +3,7 @@
 	.my [id="pricingDialog"] .modal-dialog {
 
 		width: 869px;
-		overflow: hidden;
+		overflow: visible;
 		height: 424px;
 		background-color: transparent;
 		box-shadow: none;
@@ -12,16 +12,18 @@
 		background-position: 0;
 		background-repeat: no-repeat;
 		background-image: url("../images/pricing.png");
+		background-size: 100% 436px;
 
 	}
 
 
 	[id="pricingDialog"] [class~="box"] {
 
+		text-align: center;
 		width: 271px;
 		float: left;
-		padding: 10px;
-		margin-left: 0px;
+		padding: 23px 31px;
+		margin-left: 0;
 		font-size: 13px;
 		margin-top: 23px;
 
@@ -30,9 +32,11 @@
 
 	[id="pricingDialog"] h3 {
 
+		text-align: center;
 		color: #0b6099;
 		font-size: 32px;
 		font-weight: 300;
+		margin-top: 7px;
 
 	}
 
@@ -41,14 +45,21 @@
 
 		color: #9a9a9a;
 		font-size: 13px;
+		text-align: center;
+		display: block;
+		text-transform: uppercase;
 
 	}
 
 
 	[id="pricingDialog"] hr {
 
+		max-width: 84px;
+		border-color: rgba(255, 255, 255, 0.55);
+		display: block;
 		width: 28px;
 		border-color: #cccccc;
+		margin: 14px auto 26px;
 
 	}
 
@@ -68,11 +79,17 @@
 		background-color: transparent;
 		border: 2px solid #2677b4;
 		display: block;
-		width: 240px;
+		width: 100%;
 		margin: 30px auto 0;
 		color: #2677b4;
 		font-weight: 300;
 		padding: 10px 0;
+
+		transition: all 0.5s ease;
+		-webkit-transition: all 0.5s ease;
+		-moz-transition: all 0.5s ease;
+		-ms-transition: all 0.5s ease;
+		-o-transition: all 0.5s ease;
 
 	}
 
@@ -80,8 +97,68 @@
 	[id="pricingDialog"] button:hover {
 
 		border-color: #19527f;
-		background-color: #dfdfdf;
+		background-color: #19527f;
 		opacity: 0.8;
+		color: white;
+
+
+		transition: all 0.5s ease;
+		-webkit-transition: all 0.5s ease;
+		-moz-transition: all 0.5s ease;
+		-ms-transition: all 0.5s ease;
+		-o-transition: all 0.5s ease;
 
 	}
+
+
+	[id="pricingDialog"] [class~="basic"] {
+
+		width: 271px;
+
+	}
+
+
+	[id="pricingDialog"] [class~="standard"] {
+
+		width: 300px;
+
+	}
+
+
+	[id="pricingDialog"] [class~="premium"] {
+
+		width: 271px;
+
+	}
+
+
+	[id="pricingDialog"] [class~="basic"] button {
+
+		margin-top: 58px;
+
+	}
+
+
+	[id="pricingDialog"] [class~="standard"] button {
+
+		margin-top: 86px;
+
+	}
+
+
+	[id="pricingDialog"] [id="more-offer"] {
+
+		color: rgba(255, 255, 255, 0.6);
+		font-size: 14px;
+		font-style: italic;
+		position: relative;
+		top: 63px;
+		text-align: center;
+		z-index: -1;
+
+	}
+
+
+
+
 
