@@ -4,44 +4,31 @@
 		opacity: 0;
 		-webkit-transition-property: opacity;
 		transition-property: opacity;
+		-webkit-transition-duration: .2s;
+		transition-duration: .2s;
 	}
 
 	.carousel-fade .carousel-inner .active {
 		opacity: 1;
+		-moz-transition: opacity ease-in-out .2s;
+		-o-transition: opacity ease-in-out .2s;
+		-webkit-transition: opacity ease-in-out .2s;
+		transition: opacity ease-in-out .2s;
 	}
 
-	.carousel-fade .carousel-inner .active.left,
-	.carousel-fade .carousel-inner .active.right {
-		left: 0;
-		opacity: 0;
-		z-index: 1;
-	}
-
-	.carousel-fade .carousel-inner .next.left,
-	.carousel-fade .carousel-inner .prev.right {
-		opacity: 1;
-	}
-
-	.carousel-fade .carousel-control {
-		z-index: 2;
-	}
-
+	.carousel-inner,
+	.carousel,
 	html,
 	body,
-	.carousel,
-	.carousel-inner,
 	.carousel-inner .item {
 		height: 100%;
 	}
 
-	.item:nth-child(1) {
-		background: black;
+	.carousel.carousel-fade .item {
+		opacity: 0.4;
 	}
 
-	.item:nth-child(2) {
-		background: black;
+	.carousel.carousel-fade .active.item {
+		opacity: 1;
 	}
 
-	.item:nth-child(3) {
-		background: black;
-	}

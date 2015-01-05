@@ -5,13 +5,13 @@
 	$(document).ready(function(){
 
 		$('#carousel').carousel({
-			interval: 4000,
+			interval: 10000,
 			keyboard : false
 		});
 
 
 		$('#partnersCarousel').carousel({
-			interval: 2000,
+			interval: 3000,
 			keyboard : false
 		});
 
