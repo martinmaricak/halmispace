@@ -20,6 +20,7 @@
 	<link rel="stylesheet" href="./resources/css_pricing.css?2" />
 	<link rel="stylesheet" href="./resources/css_contact.css?2" />
 	<link rel="stylesheet" href="./resources/css_background.css?2" />
+	<link rel="stylesheet" href="./resources/css_carousel.css?2" />
 
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:url" content="http://zachranmemareka.sk" />
@@ -37,21 +38,21 @@
 </head><body>
 
 
-    <div id="backgroundCarousel" class="carousel slide">
+	<div id="carousel" class="carousel slide carousel-fade" data-ride="carousel">
 
-        <div class="carousel-inner">
-            <section class="item active">
-                <img src="images/background_2.jpg?2" alt="just a background" />
-            </section>
-            <section class="item">
-                <img src="images/background_1.jpg?2" alt="just a background" />
-            </section>
-            <section class="item">
-                <img src="images/background_3.jpg?2" alt="just a background" />
-            </section>
-        </div>
+		<div class="carousel-inner">
+			<div class="item active">
+				<img src="./resources/1.jpeg" class="img-responsive" />
+			</div>
+			<div class="item">
+				<img src="./resources/2.jpeg" class="img-responsive" />
+			</div>
+			<div class="item">
+				<img src="./resources/3.jpeg" class="img-responsive" />
+			</div>
+		</div>
 
-    </div>
+	</div>
 
 
     <aside class="bordered"></aside>
@@ -195,7 +196,7 @@
 
 				<p id="more-offer">
 					Ponúkame aj prenájom Meeting Room (8e/hod) a Event Room (22e/hod).<br/>
-					V prípade individuálneho balíka nás kontaktujte.
+					V prípade individuálneho balíka nás <a href="#">kontaktujte</a>.
 				</p>
 
             </article>
@@ -228,7 +229,7 @@
 
     </main>
 
-
+	-->
 
 	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js" type="text/javascript"></script>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.1/js/bootstrap.min.js" type="text/javascript"></script>

@@ -94,6 +94,14 @@
 	}
 
 
+	[id="pricingDialog"] a {
+
+		color: inherit;
+		text-decoration: underline;
+
+	}
+
+
 	[id="pricingDialog"] button:hover {
 
 		border-color: #19527f;

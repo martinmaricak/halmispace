@@ -4,8 +4,8 @@
 
 	$(document).ready(function(){
 
-		$('#backgroundCarousel').carousel({
-			interval: 6000,
+		$('#carousel').carousel({
+			interval: 4000,
 			keyboard : false
 		});
 
@@ -28,7 +28,12 @@
 	$("#pricingDialog button").on("click", function(){
 		$("#pricingDialog").modal("toggle");
 		$("#partnersModal").modal("toggle");
-	})
+	});
+
+	$("#pricingDialog a").on("click", function(){
+		$("#pricingDialog").modal("toggle");
+		$("#partnersModal").modal("toggle");
+	});
 
 })();
 
