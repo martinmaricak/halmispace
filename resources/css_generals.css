@@ -273,3 +273,30 @@
 		height: 100px;
 
 	}
+
+
+
+
+
+	@media (max-height: 800px) {
+
+		[id~="nav"] { margin-bottom: 40px; }
+
+	}
+
+	@media (max-height: 700px) {
+
+		[id~="nav"] { margin-bottom: 40px; }
+		h1 { font-size: 44px; }
+
+	}
+
+	@media (max-width: 770px) {
+
+		img[class="partners"] {
+			left: inherit;
+			margin-left: -39px;
+			max-width: 100%;
+		}
+
+	}
