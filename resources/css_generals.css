@@ -245,13 +245,13 @@
 	}
 
 
-	img[class="partners"] {
+	div[class="partners"] {
 
 		display: block;
 		position: absolute;
 		bottom: 10px;
 		left: 50%;
-		margin-left: -363px;
+		margin-left: -304px;
 
 	}
 
@@ -268,13 +268,33 @@
 	[id="premiumhosting"],
 	[id="indievisual"] {
 
-		color: red;
-		width: 100px;
-		height: 100px;
+		width: 208px;
+		height: 51px;
+		display: inline-block;
+		text-indent: -9999px;
+		background-image: url("../images/partneri.png");
+		background-position-y: -9px;
+		opacity: 1;
 
 	}
 
+	[id="albatrosmedia"] { background-position-x: -24px; width: 180px; }
+	[id="premiumhosting"] { background-position-x: -547px; width: 157px; }
+	[id="indievisual"] { background-position-x: -246px; width: 272px; }
 
+	[id="albatrosmedia"]:hover,
+	[id="premiumhosting"]:hover,
+	[id="indievisual"]:hover {
+
+		opacity: 0.5;
+
+		transition: all 0.5s ease;
+		-webkit-transition: all 0.5s ease;
+		-moz-transition: all 0.5s ease;
+		-ms-transition: all 0.5s ease;
+		-o-transition: all 0.5s ease;
+
+	}
 
 
 
@@ -291,12 +311,19 @@
 
 	}
 
-	@media (max-width: 770px) {
+	@media (max-width: 700px) {
 
-		img[class="partners"] {
-			left: inherit;
-			margin-left: -39px;
-			max-width: 100%;
+		div[class="partners"] a {
+			display: block;
+			margin: 0 auto;
+		}
+
+		div[class="partners"] {
+			margin-left: -134px;
+		}
+
+		strong[class="partners"] {
+			bottom: 177px;
 		}
 
 	}
