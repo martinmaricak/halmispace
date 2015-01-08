@@ -256,7 +256,7 @@
 		position: absolute;
 		bottom: 10px;
 		left: 50%;
-		margin-left: -304px;
+		margin-left: -282px;
 
 	}
 
@@ -280,12 +280,13 @@
 		background-image: url("../images/partneri.png");
 		background-position-y: -9px;
 		opacity: 1;
+		margin: 0 10px;
 
 	}
 
 	[id="albatrosmedia"] { background-position-x: -24px; width: 180px; }
 	[id="premiumhosting"] { background-position-x: -547px; width: 157px; }
-	[id="indievisual"] { background-position-x: -246px; width: 272px; }
+	[id="indievisual"] { background-position-x: -296px; width: 170px; }
 
 	[id="albatrosmedia"]:hover,
 	[id="premiumhosting"]:hover,
