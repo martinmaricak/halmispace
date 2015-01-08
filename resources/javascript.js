@@ -5,7 +5,7 @@
 	$(document).ready(function(){
 
 		$('#backgroundCarousel').carousel({
-			interval: 1000000,
+			interval: 10000000, // TODO just one slide for now
 			keyboard : false
 		});
 
