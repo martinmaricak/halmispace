@@ -286,7 +286,7 @@
 
 	[id="albatrosmedia"] { background-position-x: -24px; width: 180px; }
 	[id="premiumhosting"] { background-position-x: -547px; width: 157px; }
-	[id="indievisual"] { background-position-x: -296px; width: 170px; }
+	[id="indievisual"] { background-position-x: -259px; width: 170px; background-size: 380%; background-position-y: -4px; }
 
 	[id="albatrosmedia"]:hover,
 	[id="premiumhosting"]:hover,
