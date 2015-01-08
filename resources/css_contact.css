@@ -97,3 +97,17 @@
 		margin-top: 23px;
 
 	}
+
+
+	[class="social"] {
+
+		color: inherit;
+
+	}
+
+
+	[class="social"]:hover {
+
+		text-decoration: underline;
+
+	}

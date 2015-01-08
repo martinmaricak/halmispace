@@ -4,8 +4,8 @@
 
 	$(document).ready(function(){
 
-		$('#carousel').carousel({
-			interval: 14000,
+		$('#backgroundCarousel').carousel({
+			interval: 2000,
 			keyboard : false
 		});
 

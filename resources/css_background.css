@@ -25,13 +25,12 @@
 	}
 
 
-	[id="backgroundCarousel"] .carousel-inner .item img {
+	.my [id="backgroundCarousel"] .carousel-inner .item img {
 
-		position: absolute;
-		left: 0;
-		top: 0;
-		width: 2800px;
-		height: 1600px;
+		width: auto;
+		min-height: 100%;
+		max-width: 100%;
+		height: auto;
 
 	}
 
