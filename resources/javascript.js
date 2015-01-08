@@ -5,7 +5,7 @@
 	$(document).ready(function(){
 
 		$('#backgroundCarousel').carousel({
-			interval: 3000,
+			interval: 10000,
 			keyboard : false
 		});
 
