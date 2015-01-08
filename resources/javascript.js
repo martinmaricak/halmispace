@@ -5,7 +5,7 @@
 	$(document).ready(function(){
 
 		$('#backgroundCarousel').carousel({
-			interval: 2000,
+			interval: 8000,
 			keyboard : false
 		});
 
@@ -14,7 +14,6 @@
 			interval: 4000,
 			keyboard : false
 		});
-
 
 	});
 
@@ -25,15 +24,15 @@
 
 	"use strict";
 
-	$("#pricingDialog button").on("click", function(){
-		$("#pricingDialog").modal("toggle");
-		$("#partnersModal").modal("toggle");
-	});
+	var pricingDialog = $("#pricingDialog");
+	var partnersModal = $("#partnersModal");
 
-	$("#pricingDialog a").on("click", function(){
-		$("#pricingDialog").modal("toggle");
-		$("#partnersModal").modal("toggle");
-	});
+	function toggle(){
+		pricingDialog.modal("toggle");
+		partnersModal.modal("toggle");
+	}
+
+	$("#pricingDialog button").on("click", toggle);
 
 })();
 

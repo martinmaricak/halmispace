@@ -35,12 +35,11 @@
 	}
 
 
+	@media (max-width: 1000px) {
 
+		.my [id="backgroundCarousel"] .carousel-inner .item img {
+			max-width: 1000px;
+			height: auto;
+		}
 
-	@media (min-width: 200px) {
-		[id="backgroundCarousel"] .carousel-inner>.item>img { width: 1672px; height: 1000px; }
-	}
-
-	@media (min-width: 1200px) {
-		[id="backgroundCarousel"] .carousel-inner>.item>img { width: 2006px; height: 1200px; }
 	}
