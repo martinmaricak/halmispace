@@ -76,7 +76,7 @@
 
 	[id~="nav"] {
 
-		overflow: hidden;
+		overflow: visible;
 		margin-bottom: 110px;
 
 	}
@@ -120,6 +120,9 @@
 
 
 	[id="nav"] [class~="logo"] {
+
+		position: relative;
+		top: -20px;
 
 		transition: all 0.5s ease;
 		-webkit-transition: all 0.5s ease;
