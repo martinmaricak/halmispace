@@ -91,7 +91,7 @@
 		border: 2px solid #2677b4;
 		display: block;
 		width: 100%;
-		margin: 30px auto 0;
+		margin: 18px auto 0;
 		color: #2677b4;
 		padding: 10px 0;
 		font-weight: 600;
@@ -154,14 +154,14 @@
 
 	[id="pricingDialog"] [class~="basic"] button {
 
-		margin-top: 58px;
+		margin-top: 75px;
 
 	}
 
 
 	[id="pricingDialog"] [class~="standard"] button {
 
-		margin-top: 61px;
+		margin-top: 46px;
 
 	}
 
@@ -175,6 +175,8 @@
 		top: 63px;
 		text-align: center;
 		z-index: -1;
+		overflow: hidden;
+		clear: both;
 
 	}
 
