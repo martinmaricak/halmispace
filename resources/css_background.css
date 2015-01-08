@@ -4,7 +4,6 @@
 	html, body {
 
 		height:100%;
-		background: rgba(58, 69, 89, 0.15);
 
 	}
 
@@ -21,6 +20,7 @@
 	[id="backgroundCarousel"] .carousel-inner {
 
 		height:100%;
+		background: #6b8ca4;
 
 	}
 
