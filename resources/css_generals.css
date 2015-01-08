@@ -319,17 +319,42 @@
 
 	@media (max-width: 700px) {
 
+
+
 		div[class="partners"] a {
-			display: block;
-			margin: 0 auto;
+			width: 102px;
+			background-size: 464px;
+			background-repeat: no-repeat;
+			background-position-y: 1px;
+			margin: 0 0;
+			height: 39px;
 		}
 
 		div[class="partners"] {
-			margin-left: -134px;
+			bottom: 21px;
+		}
+
+		div[class="partners"] {
+			margin-left: -157px;
 		}
 
 		strong[class="partners"] {
-			bottom: 177px;
+			bottom: 58px;
+		}
+
+		[id="albatrosmedia"] { background-position-x: -9px; width: 126px !important; }
+		[id="premiumhosting"] { background-position-x: -346px; width: 157px; }
+		[id="indievisual"] { background-position-x: -189px; width: 170px; background-size: 380%; background-position-y: -4px; }
+
+
+
+		#try {
+			padding: 11px 7px;
+			width: 275px;
+		}
+
+		#nav {
+			margin-bottom: 109px;
 		}
 
 	}
