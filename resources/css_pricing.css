@@ -1,5 +1,14 @@
 
 
+
+
+	[id="pricingDialog"] {
+
+		height: 100%;
+
+	}
+
+
 	.my [id="pricingDialog"] .modal-dialog {
 
 		width: 869px;
@@ -13,6 +22,8 @@
 		background-repeat: no-repeat;
 		background-image: url("../images/pricing.png");
 		background-size: 100% 436px;
+		top: 50%;
+		margin-top: -222px;
 
 	}
 

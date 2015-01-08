@@ -24,9 +24,17 @@
 
 	}
 
+	[id="contactDialog"] {
+
+		height: 100%;
+
+	}
+
 	.my [id="contactDialog"] .modal-content {
 
 		overflow: hidden;
+		top: 50%;
+		margin-top: -225px;
 
 	}
 

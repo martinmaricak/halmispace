@@ -18,11 +18,20 @@
 	}
 
 
+	[id="partnersModal"] {
+
+		height: 100%;
+
+	}
+
+
 	.my [id="partnersModal"] .modal-dialog {
 
 		width: 846px;
 		overflow: hidden;
 		height: 424px;
+		top: 50%;
+		margin-top: -232px;
 
 	}
 
