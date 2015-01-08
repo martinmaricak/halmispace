@@ -64,9 +64,9 @@
 		display: inline-block;
 		opacity: 0.6;
 		font-weight: 400;
-		max-width: 185px;
+		max-width: 178px;
 		line-height: 15px;
-		margin-top: 45px;
+		margin-top: 44px;
 		position: relative;
 		top: 7px;
 		left: 5px;
@@ -145,6 +145,11 @@
 	}
 
 
+	[id="partnersDescr"] [id="events"] {
+
+		margin-left: 8px;
+
+	}
 
 
 
