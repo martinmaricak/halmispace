@@ -9,6 +9,12 @@
 	}
 
 
+	html {
+		-ms-touch-action: manipulation;
+		touch-action: manipulation;
+	}
+
+
 	@media (max-width: 600px) {
 
 		html, body {
