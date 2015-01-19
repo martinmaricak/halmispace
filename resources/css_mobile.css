@@ -30,6 +30,12 @@
 
 		}
 
+		.my [id="backgroundCarousel"] .carousel-inner .item img {
+
+			right: 0;
+
+		}
+
 
 		[id~="nav"] {
 
