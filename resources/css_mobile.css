@@ -47,7 +47,7 @@
 
 			position: static;
 			margin: 10px auto 30px;
-			width: 350px;
+			width: 109px;
 
 		}
 
@@ -60,6 +60,14 @@
 			margin: 100px 0 0;
 
 		}
+
+
+		[class="partners"] a[id="albatrosmedia"]{
+
+			margin-left: -11px; /* fuck it, it's almost midnight */
+
+		}
+
 
 		[class~="mobile-only"] {
 
