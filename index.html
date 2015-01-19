@@ -22,6 +22,7 @@
 	<link rel="stylesheet" href="./resources/css_contact.css?3" />
 	<link rel="stylesheet" href="./resources/css_background.css?3" />
 	<link rel="stylesheet" href="./resources/css_carousel.css?3" />
+	<link rel="stylesheet" href="./resources/css_mobile.css?3" />
 
 	<meta property="og:title" content="Halmi Space :: Kreatívny coworkinge" />
 	<meta property="og:image" content="https://secure.gravatar.com/avatar/33601a529921d030cc933647845983d1?size=400"/>
@@ -128,7 +129,7 @@
 
             <article class="modal-dialog modal-content">
 
-				<a target="_blank" id="themap" href="http://bit.ly/1zYA8Wt">
+				<a target="_blank" class="themap" href="http://bit.ly/1zYA8Wt">
 					<img src="images/maps.png" title="Zobraziť HalmiSpace v Google maps." />
 				</a>
 
@@ -168,7 +169,7 @@
 				<div class="basic box">
 
 					<h3>Basic</h3>
-					<span class="desc">59€ za 7 DNÍ/MESIAC</span>
+					<span class="desc">7 DNÍ V MESIACI/59€</span>
 					<hr/>
 					<span class="benefits">Akýkoľvek voľný stôl, Wi-Fi, tlačiareň, špecializovaná knižnica, ovocný kôš v rámci FUP.</span>
 					<button>Vyskúšaj týždeň zadarmo</button>
@@ -178,7 +179,7 @@
 				<div class="standard box">
 
 					<h3>Standard</h3>
-					<span class="desc">119€ za 14 DNÍ/MESIAC</span>
+					<span class="desc">14 DNÍ V MESIACI/119€</span>
 					<hr/>
 					<span class="benefits"><strong>Basic</strong> + prednostný vstup na eventy, otvorený účet, káva za euro, 15% zľava na konzum, zľavy u partnerov a bikesharing.</span>
 					<button>Vyskúšaj týždeň zadarmo</button>
@@ -188,14 +189,14 @@
 				<div class="premium box">
 
 					<h3>Premium</h3>
-					<span class="desc">239€/MESIAC</span>
+					<span class="desc">MESIAC UNLIMITED/239€</span>
 					<hr/>
 					<span class="benefits"><strong>Standard</strong> + vlastný stôl, skrinka, ranná káva zadarmo, 30% zľava na konzum, zľavy na eventy, právne, učtovné a daňové poradenstvo, carsharing (v príprave).</span>
 					<button>Vyskúšaj týždeň zadarmo</button>
 
 				</div>
 
-				<p id="more-offer">
+				<p class="more-offer">
 					Ponúkame aj prenájom Meeting Room (8€/hod) a Event Room (22€/hod).<br/>
 					V prípade individuálneho balíka nás <a href="mailto:pridajsa@halmispace.sk?subject=Nový-coworker&body=Ahoj!">kontaktujte</a>.
 				</p>
@@ -219,6 +220,98 @@
         </p>
 
         <a data-toggle="modal" data-target="#partnersModal" href="#" id="try">Vyskúšaj týždeň zadarmo</a>
+
+		<aside class="mobile-only mobile-prices">
+
+			<br/><br/>
+
+			<strong class="partners">— Cenník —</strong>
+
+			<br/>
+
+			<div class="basic box">
+
+				<h3>Basic; <span class="desc">59€ za 7 DNÍ/MESIAC</span></h3>
+				<span class="benefits">Akýkoľvek voľný stôl, Wi-Fi, tlačiareň, špecializovaná knižnica, ovocný kôš v rámci FUP.</span>
+
+			</div>
+
+			<div class="standard box">
+
+				<hr/>
+				<h3>Standard; <span class="desc">119€ za 14 DNÍ/MESIAC</span></h3>
+				<span class="benefits"><strong>Basic</strong> + prednostný vstup na eventy, otvorený účet, káva za euro, 15% zľava na konzum, zľavy u partnerov a bikesharing.</span>
+
+			</div>
+
+			<div class="premium box">
+
+				<hr/>
+				<h3>Premium; <span class="desc">239€/MESIAC</span></h3>
+				<span class="benefits"><strong>Standard</strong> + vlastný stôl, skrinka, ranná káva zadarmo, 30% zľava na konzum, zľavy na eventy, právne, učtovné a daňové poradenstvo, carsharing (v príprave).</span>
+
+			</div>
+
+		</aside>
+
+		<aside class="mobile-only mobile-send">
+
+			<br/><br/>
+
+			<strong class="partners">— Vyskúšaj týždeň u nás! —</strong>
+
+			<br/>
+
+			<input type="text" placeholder="Meno" />
+			<input type="text" placeholder="Email" />
+			<input type="text" placeholder="Poznámka (nepovinné)" />
+
+			<div class="events-align">
+			<input id="events" type="checkbox" />
+			<label for="events">Prajem si dostávať newsletter o eventoch a o iných akciách.</label>
+			</div>
+
+
+			<button>ODOSLAŤ</button>
+
+		</aside>
+
+		<aside class="mobile-only mobile-map">
+
+			<br/><br/>
+
+			<strong class="partners">— Kontakt —</strong>
+
+			<br/>
+
+			<a target="_blank" class="themap" href="http://bit.ly/1zYA8Wt">
+				<img src="images/maps.png" title="Zobraziť HalmiSpace v Google maps." />
+			</a>
+
+			<div id="rightbox">
+
+				<p>HalmiSpace nájdeš medzi vysokými múrmi mestského paláca Halmiho dvor. Spoznáš nás podľa
+					originálnej kaviarne HalmiCaffe, ktorá je miestom nášho neformálneho networkingu.</p>
+
+				<strong>HalmiSpace</strong>
+
+				<div class="box">
+					Hlavná 21<br/>
+					040 01 Košice<br/>
+					0904 434 895
+				</div>
+
+				<div class="box">
+					<a href="mailto:pridajsa@halmispace.sk?subject=Nový-coworker&body=Ahoj!" class="social">pridajsa@halmispace.sk</a>
+					<a href="https://facebook.com/HalmiSpace" class="social" target="_blank">facebook.com/HalmiSpace</a><br/>
+					<a href="https://twitter.com/HalmiSpace" class="social" target="_blank">twitter.com/HalmiSpace</a>
+				</div>
+
+				<i>Otvorené každý deň od 10:00 do 22:00.</i>
+
+			</div>
+
+		</aside>
 
         <strong class="partners">— Partneri —</strong>
 

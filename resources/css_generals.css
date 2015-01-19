@@ -319,8 +319,6 @@
 
 	@media (max-width: 700px) {
 
-
-
 		div[class="partners"] a {
 			width: 102px;
 			background-size: 464px;
@@ -353,8 +351,5 @@
 			width: 275px;
 		}
 
-		#nav {
-			margin-bottom: 109px;
-		}
-
 	}
+

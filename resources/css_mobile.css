@@ -1,0 +1,182 @@
+
+
+
+
+	[class~="mobile-only"] {
+
+		display: none;
+
+	}
+
+
+	@media (max-width: 600px) {
+
+		html, body {
+
+			overflow-x: hidden;
+
+		}
+
+
+		[id="nav"] [class="menu"]{
+
+			display: none;
+
+		}
+
+
+		[id~="nav"] {
+
+			margin-bottom: 40px;
+
+		}
+
+		body {
+
+			overflow-y: auto;
+
+		}
+
+		div[class="partners"] {
+
+			position: static;
+			margin: 10px auto 30px;
+			width: 350px;
+
+		}
+
+		strong[class="partners"]{
+
+			position: static;
+			text-align: center;
+			display: block;
+			width: 100%;
+			margin: 100px 0 0;
+
+		}
+
+		[class~="mobile-only"] {
+
+			display: block;
+			color: white;
+
+		}
+
+		[class~="mobile-map"] {
+
+			text-align: center;
+			font-weight: 300;
+			font-size: 15px;
+
+		}
+
+		[class="themap"] img {
+
+			margin: 0px 0 34px;
+			max-width: 100%;
+
+		}
+
+
+
+
+		[class~="mobile-send"] input[type="text"] {
+
+			margin: 7px;
+			border: 1px solid #7f8589;
+			font-size: 14px;
+			padding: 8px 16px;
+			width: 94%;
+
+		}
+
+
+		[class~="mobile-send"] label {
+
+			color: white;
+			font-size: 13px;
+			font-style: italic;
+			display: inline-block;
+			font-weight: 400;
+			max-width: 178px;
+			line-height: 15px;
+			margin-top: 44px;
+			position: relative;
+			top: 7px;
+			left: 5px;
+			margin-right: 20px;
+
+		}
+
+
+		[class~="mobile-send"] button {
+
+			border: 2px solid #2677b4;
+			background: #2677b4;
+			color: #FFFFFF;
+			font-weight: 300;
+			font-size: 13px;
+			padding: 12px 28px;
+
+			float: initial;
+			margin: 32px auto;
+			display: block;
+			width: 118px;
+
+			transition: all 0.5s ease;
+			-webkit-transition: all 0.5s ease;
+			-moz-transition: all 0.5s ease;
+			-ms-transition: all 0.5s ease;
+			-o-transition: all 0.5s ease;
+
+
+		}
+
+
+		[class~="mobile-send"] [class~="events-align"] {
+
+			margin: 0 auto;
+			width: 226px;
+
+		}
+
+
+		[class~="mobile-send"] button:hover {
+
+			border-color: #19527f;
+			background-color: #19527f;
+			opacity: 0.8;
+			color: white;
+
+			transition: all 0.5s ease;
+			-webkit-transition: all 0.5s ease;
+			-moz-transition: all 0.5s ease;
+			-ms-transition: all 0.5s ease;
+			-o-transition: all 0.5s ease;
+
+		}
+
+
+		[class~="mobile-prices"] {
+
+			font-size: 14px;
+			font-weight: 300;
+			text-align: center;
+
+		}
+
+
+		[class~="mobile-prices"] button {
+
+			color: red;
+
+		}
+
+		[id="try"]{
+
+			display: none;
+
+		}
+
+
+	}
