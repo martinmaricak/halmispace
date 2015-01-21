@@ -100,13 +100,15 @@
 
 
 
-		[class~="mobile-send"] input[type="text"] {
+		[class~="mobile-send"] input[type="text"],
+		[class~="mobile-send"] input[type="email"] {
 
 			margin: 7px;
 			border: 1px solid #7f8589;
 			font-size: 14px;
 			padding: 8px 16px;
 			width: 94%;
+			color: black;
 
 		}
 

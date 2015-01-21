@@ -45,6 +45,7 @@
 	}
 
 
+	[id="partnersModal"] input[type="email"],
 	[id="partnersModal"] input[type="text"] {
 
 		margin: 7px;
@@ -59,7 +60,7 @@
 	[id="partnersModal"] label {
 
 		color: rgba(44, 44, 44, 0.6);
-		font-size: 13px;
+		font-size: 12px;
 		font-style: italic;
 		display: inline-block;
 		opacity: 0.6;
@@ -70,7 +71,7 @@
 		position: relative;
 		top: 7px;
 		left: 5px;
-		margin-right: 20px;
+		margin-right: 10px;
 
 	}
 
@@ -145,7 +146,8 @@
 	}
 
 
-	[id="partnersDescr"] [id="events"] {
+	[id="partnersDescr"] [id="events1"],
+	[id="partnersDescr"] [id="events2"] {
 
 		margin-left: 8px;
 
