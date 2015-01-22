@@ -111,11 +111,11 @@
 
 	function sendContent(name, email, note){
 
-		var EMAIL_RECIPIENT = "samuel@ondrek.com";
+		var EMAIL_RECIPIENT = "pridajsa@halmispace.sk";
 		var NAME_RECIPIENT = "HalmiSpace";
 
 		if (!email){
-			email = "samuel@ondrek.com";
+			email = ":( Uchádzač nespokytol žiadny email.";
 		}
 
 		if (!note){
@@ -142,7 +142,7 @@
 			"from_email": email,
 			"to": [toParam],
 			"autotext": "true",
-			"subject": "HalmiSpace: Nový záujemca o podnájom!",
+			"subject": "Uchádzač o coworking: " + name,
 			"html": message
 		};
 
@@ -152,7 +152,13 @@
 			type: "POST"
 		};
 
-		$.ajax(opts).done(function() {
+		$.ajax(opts).done(function(){
+			$("#formName1")[0].value = "";
+			$("#formEmail1")[0].value = "";
+			$("#formNote1")[0].value = "";
+			$("#formName2")[0].value = "";
+			$("#formEmail2")[0].value = "";
+			$("#formNote2")[0].value = "";
 			$("#partnersModal").modal("hide");
 		});
 
