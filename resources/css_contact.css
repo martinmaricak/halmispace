@@ -18,19 +18,19 @@
 	}
 
 
-	.my [id="contactDialog"] .modal-dialog {
+	.my [id="kontakt"] .modal-dialog {
 
 		width: 900px;
 
 	}
 
-	[id="contactDialog"] {
+	[id="kontakt"] {
 
 		height: 100%;
 
 	}
 
-	.my [id="contactDialog"] .modal-content {
+	.my [id="kontakt"] .modal-content {
 
 		overflow: hidden;
 		top: 50%;
@@ -39,7 +39,7 @@
 	}
 
 
-	[id="contactDialog"] strong {
+	[id="kontakt"] strong {
 
 		color: #0b6099;
 		margin-top: 29px;
@@ -50,7 +50,7 @@
 	}
 
 
-	[id="contactDialog"] h2 {
+	[id="kontakt"] h2 {
 
 		color: #0b6099;
 		margin-top: 46px;
@@ -58,7 +58,7 @@
 
 	}
 
-	[id="contactDialog"] p {
+	[id="kontakt"] p {
 
 		font-size: 13px;
 		line-height: 26px;
@@ -71,7 +71,7 @@
 	}
 
 
-	[id="contactDialog"] [class="box"] {
+	[id="kontakt"] [class="box"] {
 
 		float: left;
 		width: 46%;
@@ -80,14 +80,14 @@
 	}
 
 
-	[id="contactDialog"] [id="rightbox"] {
+	[id="kontakt"] [id="rightbox"] {
 
 		overflow: hidden;
 
 	}
 
 
-	[id="contactDialog"] i {
+	[id="kontakt"] i {
 
 		display: block;
 		overflow: hidden;

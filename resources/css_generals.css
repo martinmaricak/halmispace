@@ -153,6 +153,9 @@
 
 		margin-left: 28px;
 		float: right;
+		color: rgba(255, 255, 255, 0.6);
+		font-size: 15px;
+		font-weight: 300;
 
 	}
 
@@ -257,6 +260,36 @@
 		bottom: 10px;
 		left: 50%;
 		margin-left: -282px;
+
+	}
+
+
+	[id="thanks"] {
+
+		text-align: center;
+		background: rgb(255, 255, 255);
+		position: absolute;
+		height: 338px;
+		z-index: 100;
+		width: 354px;
+		padding-top: 153px;
+		font-size: 14px;
+		color: rgb(13, 13, 13);
+		font-weight: 700;
+		display: none;
+
+	}
+
+
+	 [id="mobilethanks"] {
+
+		 display: none;
+
+	 }
+
+	[id="thanks"].active {
+
+		display: block;
 
 	}
 

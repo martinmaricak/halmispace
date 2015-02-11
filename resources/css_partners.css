@@ -18,14 +18,14 @@
 	}
 
 
-	[id="partnersModal"] {
+	[id="ponuka"] {
 
 		height: 100%;
 
 	}
 
 
-	.my [id="partnersModal"] .modal-dialog {
+	.my [id="ponuka"] .modal-dialog {
 
 		width: 846px;
 		overflow: hidden;
@@ -36,7 +36,7 @@
 	}
 
 
-	[id="partnersModal"] h2 {
+	[id="ponuka"] h2 {
 
 		color: #0b6099;
 		font-weight: 300;
@@ -45,8 +45,8 @@
 	}
 
 
-	[id="partnersModal"] input[type="email"],
-	[id="partnersModal"] input[type="text"] {
+	[id="ponuka"] input[type="email"],
+	[id="ponuka"] input[type="text"] {
 
 		margin: 7px;
 		border: 1px solid #7f8589;
@@ -57,7 +57,7 @@
 	}
 
 
-	[id="partnersModal"] label {
+	[id="ponuka"] label {
 
 		color: rgba(44, 44, 44, 0.6);
 		font-size: 12px;
@@ -76,7 +76,7 @@
 	}
 
 
-	[id="partnersModal"] button {
+	[id="ponuka"] button {
 
 		border: 2px solid #2677b4;
 		background: transparent;
@@ -94,7 +94,7 @@
 	}
 
 
-	[id="partnersModal"] button:hover {
+	[id="ponuka"] button:hover {
 
 		border-color: #19527f;
 		background-color: #19527f;
@@ -110,7 +110,7 @@
 	}
 
 
-	[id="partnersModal"] .carousel-indicators li {
+	[id="ponuka"] .carousel-indicators li {
 
 		width: 8px;
 		height: 8px;
@@ -119,7 +119,7 @@
 	}
 
 
-	[id="partnersModal"] .carousel-caption {
+	[id="ponuka"] .carousel-caption {
 
 		color: rgba(255, 255, 255, 0.89);
 		font-size: 14px;
@@ -127,7 +127,7 @@
 	}
 
 
-	[id="partnersModal"] [class~="persona"] {
+	[id="ponuka"] [class~="persona"] {
 
 		margin-top: 35px;
 		text-transform: uppercase;
@@ -135,7 +135,7 @@
 	}
 
 
-	[id="partnersModal"] [class~="text"] {
+	[id="ponuka"] [class~="text"] {
 
 		font-size: 16px;
 		width: 332px;

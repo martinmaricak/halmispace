@@ -2,14 +2,14 @@
 
 
 
-	[id="pricingDialog"] {
+	[id="cennik"] {
 
 		height: 100%;
 
 	}
 
 
-	.my [id="pricingDialog"] .modal-dialog {
+	.my [id="cennik"] .modal-dialog {
 
 		width: 869px;
 		overflow: visible;
@@ -28,7 +28,7 @@
 	}
 
 
-	[id="pricingDialog"] [class~="box"] {
+	[id="cennik"] [class~="box"] {
 
 		text-align: center;
 		width: 271px;
@@ -41,7 +41,7 @@
 	}
 
 
-	[id="pricingDialog"] h3 {
+	[id="cennik"] h3 {
 
 		text-align: center;
 		color: #0b6099;
@@ -52,7 +52,7 @@
 	}
 
 
-	[id="pricingDialog"] [class~="desc"] {
+	[id="cennik"] [class~="desc"] {
 
 		color: #9a9a9a;
 		font-size: 13px;
@@ -63,7 +63,7 @@
 	}
 
 
-	[id="pricingDialog"] hr {
+	[id="cennik"] hr {
 
 		max-width: 84px;
 		border-color: rgba(255, 255, 255, 0.55);
@@ -75,7 +75,7 @@
 	}
 
 
-	[id="pricingDialog"] [class~="benefits"] {
+	[id="cennik"] [class~="benefits"] {
 
 		color: #2c2c2c;
 		font-size: 13px;
@@ -84,7 +84,7 @@
 	}
 
 
-	[id="pricingDialog"] button {
+	[id="cennik"] button {
 
 		float: left;
 		background-color: transparent;
@@ -106,7 +106,7 @@
 	}
 
 
-	[id="pricingDialog"] a {
+	[id="cennik"] a {
 
 		color: inherit;
 		text-decoration: underline;
@@ -114,7 +114,7 @@
 	}
 
 
-	[id="pricingDialog"] button:hover {
+	[id="cennik"] button:hover {
 
 		border-color: #19527f;
 		background-color: #19527f;
@@ -131,42 +131,42 @@
 	}
 
 
-	[id="pricingDialog"] [class~="basic"] {
+	[id="cennik"] [class~="basic"] {
 
 		width: 271px;
 
 	}
 
 
-	[id="pricingDialog"] [class~="standard"] {
+	[id="cennik"] [class~="standard"] {
 
 		width: 300px;
 
 	}
 
 
-	[id="pricingDialog"] [class~="premium"] {
+	[id="cennik"] [class~="premium"] {
 
 		width: 271px;
 
 	}
 
 
-	[id="pricingDialog"] [class~="basic"] button {
+	[id="cennik"] [class~="basic"] button {
 
 		margin-top: 75px;
 
 	}
 
 
-	[id="pricingDialog"] [class~="standard"] button {
+	[id="cennik"] [class~="standard"] button {
 
 		margin-top: 46px;
 
 	}
 
 
-	[id="pricingDialog"] [class~="more-offer"] {
+	[id="cennik"] [class~="more-offer"] {
 
 		color: rgba(255, 255, 255, 0.6);
 		font-size: 14px;

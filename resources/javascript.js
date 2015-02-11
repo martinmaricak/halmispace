@@ -24,12 +24,6 @@
 })();
 
 
-/*
-
- 2/ Potom mas screen z tabletu na landscape mode. Je to rozhadzane... da sa s tym nieco spravit? Napriklad ja neviem, donutit ten web, aby ked je taka mala obrazovna nabehol na scrolldown? Alebo nieco take. Vies nieco take ako minimalna vyska a ked nie, tak hodi scroll alebo ja neviem ako sa to robi :D daj mi feedback na to ty.
-
-*/
-
 
 (function(){
 
@@ -39,15 +33,15 @@
 	//  toggle popups from pricing dialog to the partners dialog
 	//
 
-	var pricingDialog = $("#pricingDialog");
-	var partnersModal = $("#partnersModal");
+	var cennik = $("#cennik");
+	var ponuka = $("#ponuka");
 
 	function toggle(){
-		pricingDialog.modal("toggle");
-		partnersModal.modal("toggle");
+		cennik.modal("toggle");
+		ponuka.modal("toggle");
 	}
 
-	$("#pricingDialog button").on("click", toggle);
+	$("#cennik button").on("click", toggle);
 
 
 
@@ -75,9 +69,9 @@
 	$("nav .menu").on("click", setDeeplinking);
 	$("#try").on("click", setDeeplinking);
 
-	$('#pricingDialog').on('hidden.bs.modal', clearDeeplinking);
-	$('#partnersModal').on('hidden.bs.modal', clearDeeplinking);
-	$('#contactDialog').on('hidden.bs.modal', clearDeeplinking);
+	$('#cennik').on('hidden.bs.modal', clearDeeplinking);
+	$('#ponuka').on('hidden.bs.modal', clearDeeplinking);
+	$('#kontakt').on('hidden.bs.modal', clearDeeplinking);
 
 
 })();
@@ -93,26 +87,40 @@
 	//
 
 
-	$("#form1").on("click", function(){
+	$("#form1").on("click", function(e){
+		e.preventDefault();
 		sendContent(
 			$("#formName1")[0].value,
 			$("#formEmail1")[0].value,
-			$("#formNote1")[0].value
+			$("#formNote1")[0].value,
+			$("#events1")[0].value,
+			function(){
+				$("#formName1").css("display", "none");
+				$("#form1").css("display", "none");
+				$("#formEmail1").css("display", "none");
+				$("#formNote1").css("display", "none");
+				$("#events1").css("display", "none");
+				$(".events-align label").css("display", "none");
+				$("#mobilethanks").css("display", "block");
+			}
 		);
 	});
 
-	$("#form2").on("click", function(){
+	$("#form2").on("click", function(e){
+		e.preventDefault();
 		sendContent(
 			$("#formName2")[0].value,
 			$("#formEmail2")[0].value,
-			$("#formNote2")[0].value
+			$("#formNote2")[0].value,
+			$("#events2")[0].value
 		);
 	});
 
-	function sendContent(name, email, note){
+	function sendContent(name, email, note, newsletter, callback){
 
-		var EMAIL_RECIPIENT = "pridajsa@halmispace.sk";
+		var EMAIL_RECIPIENT = "samuel@ondrek.com"; // "pridajsa@halmispace.sk";
 		var NAME_RECIPIENT = "HalmiSpace";
+		var wantsReceiveEmail = "Áno, mám záujem dostávať newsletter.";
 
 		if (!email){
 			email = ":( Uchádzač nespokytol žiadny email.";
@@ -126,6 +134,10 @@
 			name = "Uchádzač";
 		}
 
+		if (newsletter!=="on"){
+			wantsReceiveEmail = "Nemám záujem dostávať newsletter.";
+		}
+
 		var toParam = {
 			"email": EMAIL_RECIPIENT,
 			"name": NAME_RECIPIENT,
@@ -136,6 +148,7 @@
 		message += "Uchádzač: " + name + "<br/>";
 		message += "Email: " + email + "<br/>";
 		message += "Poznámka: " + note + "<br/>";
+		message += "Newsletter: " + wantsReceiveEmail + "<br/>";
 
 
 		var messageParam = {
@@ -149,7 +162,10 @@
 		var opts = {
 			url: "https://mandrillapp.com/api/1.0/messages/send.json",
 			data: { "key": "9WZGkQuvFHBbuy-p8ZOPjQ",  "message": messageParam },
-			type: "POST"
+			type: "POST",
+			crossDomain: true,
+			success: function(msg){ console.info("success email message", msg[0]); },
+			error : function(){ alert("Vyskytla sa chyba, kontaktuj nas na pridajsa@halmispace.sk!") }
 		};
 
 		$.ajax(opts).done(function(){
@@ -159,7 +175,8 @@
 			$("#formName2")[0].value = "";
 			$("#formEmail2")[0].value = "";
 			$("#formNote2")[0].value = "";
-			$("#partnersModal").modal("hide");
+			$("#thanks").addClass("active");
+			callback();
 		});
 
 	}
