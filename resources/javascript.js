@@ -119,7 +119,7 @@
 
 	function sendContent(name, email, note, newsletter, callback){
 
-		var EMAIL_RECIPIENT = "samuel@ondrek.com"; // "pridajsa@halmispace.sk";
+		var EMAIL_RECIPIENT = "pridajsa@halmispace.sk";
 		var NAME_RECIPIENT = "HalmiSpace";
 
 
