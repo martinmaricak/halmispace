@@ -57,6 +57,13 @@
 
 		}
 
+		[class~="white"],
+		[class~="white"]:hover {
+
+			color: white;
+
+		}
+
 		strong[class="partners"]{
 
 			position: static;

@@ -93,7 +93,7 @@
 			$("#formName1")[0].value,
 			$("#formEmail1")[0].value,
 			$("#formNote1")[0].value,
-			$("#events1")[0].value,
+			$($("#events1")[0]).prop('checked'),
 			function(){
 				$("#formName1").css("display", "none");
 				$("#form1").css("display", "none");
@@ -112,15 +112,16 @@
 			$("#formName2")[0].value,
 			$("#formEmail2")[0].value,
 			$("#formNote2")[0].value,
-			$("#events2")[0].value
+			$($("#events2")[0]).prop('checked'),
+			function emptyCallback(){}
 		);
 	});
 
 	function sendContent(name, email, note, newsletter, callback){
 
-		var EMAIL_RECIPIENT = "pridajsa@halmispace.sk";
+		var EMAIL_RECIPIENT = "samuel@ondrek.com"; // "pridajsa@halmispace.sk";
 		var NAME_RECIPIENT = "HalmiSpace";
-		var wantsReceiveEmail = "Áno, mám záujem dostávať newsletter.";
+
 
 		if (!email){
 			email = ":( Uchádzač nespokytol žiadny email.";
@@ -134,9 +135,11 @@
 			name = "Uchádzač";
 		}
 
-		if (newsletter!=="on"){
-			wantsReceiveEmail = "Nemám záujem dostávať newsletter.";
-		}
+		console.log("newsletter", newsletter);
+
+		var wantsReceiveEmail = newsletter
+			? "Áno, mám záujem o newsletter."
+			: "Nemám záujem o newsletter.";
 
 		var toParam = {
 			"email": EMAIL_RECIPIENT,
