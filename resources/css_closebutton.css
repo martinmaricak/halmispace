@@ -1,0 +1,42 @@
+
+
+	[id="ponuka"] button[class="close-modal"],
+	[id="cennik"] button[class="close-modal"],
+	[id="kontakt"] button[class="close-modal"] {
+
+		background-image: url("../images/close.png");
+		width: 30px;
+		height: 30px;
+		display: block;
+		z-index: 9999999;
+		position: absolute;
+		top: 50%;
+		left: 75%;
+		background-repeat: no-repeat;
+		border: 0;
+		left: 50%;
+		background-color: transparent;
+
+	}
+
+
+	[id="ponuka"] button[class="close-modal"]{
+
+		margin-top: -268px;
+		margin-left: 414px;
+
+	}
+
+	[id="cennik"] button[class="close-modal"]{
+
+		margin-top: -234px;
+		margin-left: 414px;
+
+	}
+
+	[id="kontakt"] button[class="close-modal"]{
+
+		margin-top: -263px;
+		margin-left: 442px;
+
+	}
