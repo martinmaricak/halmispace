@@ -260,6 +260,7 @@
 		bottom: 10px;
 		left: 50%;
 		margin-left: -282px;
+		opacity: 0.7;
 
 	}
 
@@ -314,12 +315,13 @@
 		background-position-y: -9px;
 		opacity: 1;
 		margin: 0 10px;
+		background-size: 690px;
 
 	}
 
 	[id="albatrosmedia"] { background-position-x: -24px; width: 180px; }
-	[id="premiumhosting"] { background-position-x: -547px; width: 157px; }
-	[id="indievisual"] { background-position-x: -259px; width: 170px; background-size: 380%; background-position-y: -4px; }
+	[id="premiumhosting"] { background-position-x: -508px; width: 157px; }
+	[id="indievisual"] { background-position-x: -253px;  width: 170px; background-size: 380%; background-position-y: -7px; }
 
 	[id="albatrosmedia"]:hover,
 	[id="premiumhosting"]:hover,
