@@ -91,7 +91,7 @@
 		border: 2px solid #2677b4;
 		display: block;
 		width: 100%;
-		margin: 18px auto 0;
+		margin: 75px auto 0;
 		color: #2677b4;
 		padding: 10px 0;
 		font-weight: 600;
@@ -148,13 +148,6 @@
 	[id="cennik"] [class~="premium"] {
 
 		width: 271px;
-
-	}
-
-
-	[id="cennik"] [class~="basic"] button {
-
-		margin-top: 75px;
 
 	}
 
