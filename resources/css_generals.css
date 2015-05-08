@@ -156,13 +156,14 @@
 		color: rgba(255, 255, 255, 0.6);
 		font-size: 15px;
 		font-weight: 300;
+		text-transform: uppercase;
 
 	}
 
 
 	[id="description"] {
 
-		color: rgba(255, 255, 255, 0.69);
+		color: rgba(255, 255, 255, 0.89);
 		font-weight: 300;
 		font-size: 15px;
 		text-align: center;
@@ -312,16 +313,15 @@
 		display: inline-block;
 		text-indent: -9999px;
 		background-image: url("../images/partneri.png");
-		background-position-y: -9px;
 		opacity: 1;
 		margin: 0 10px;
 		background-size: 690px;
 
 	}
 
-	[id="albatrosmedia"] { background-position-x: -24px; width: 180px; }
-	[id="premiumhosting"] { background-position-x: -508px; width: 157px; }
-	[id="indievisual"] { background-position-x: -253px;  width: 170px; background-size: 380%; background-position-y: -7px; }
+	[id="albatrosmedia"] { background-position: -24px -12px; width: 180px; }
+	[id="premiumhosting"] { background-position: -508px -16px; width: 157px; }
+	[id="indievisual"] { background-position: -253px -15px;  width: 170px; background-size: 380%; }
 
 	[id="albatrosmedia"]:hover,
 	[id="premiumhosting"]:hover,
@@ -375,9 +375,9 @@
 			bottom: 58px;
 		}
 
-		[id="albatrosmedia"] { background-position-x: -9px; width: 126px !important; }
-		[id="premiumhosting"] { background-position-x: -346px; width: 157px; }
-		[id="indievisual"] { background-position-x: -189px; width: 170px; background-size: 380%; background-position-y: -4px; }
+		[id="albatrosmedia"] { background-position: -9px 0px; width: 126px !important; }
+		[id="premiumhosting"] { background-position: -346px 0px; width: 157px; }
+		[id="indievisual"] { background-position: -189px 0px; width: 170px; background-size: 380%; background-position-y: -4px; }
 
 
 

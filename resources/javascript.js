@@ -1,6 +1,18 @@
+(function () {
+	"use strict";
+
+	var $hash = $(location.hash);
+
+	if ($hash.hasClass('modal')) {
+		$hash.modal('show')
+	}
+
+})();
+
 (function(){
 
 	"use strict";
+
 
 	//
 	//  carousels intervals and disabled the keyboard support
@@ -122,6 +134,9 @@
 		var EMAIL_RECIPIENT = "pridajsa@halmispace.sk";
 		var NAME_RECIPIENT = "HalmiSpace";
 
+		var SND_EMAIL_RECIPIENT = "x+25519533291603@mail.asana.com";
+		var SND_NAME_RECIPIENT = "Lolovia";
+
 
 		if (!email){
 			email = ":( Uchádzač nespokytol žiadny email.";
@@ -155,8 +170,15 @@
 
 
 		var messageParam = {
-			"from_email": email,
-			"to": [toParam],
+			"from_email": "pridajsa@halmispace.sk",
+			"to": [toParam, {
+				"email": SND_EMAIL_RECIPIENT,
+				"name": SND_NAME_RECIPIENT,
+				"type": "to"
+			}],
+			"headers": {
+	            "Reply-To": email
+	        },
 			"autotext": "true",
 			"subject": "Uchádzač o coworking: " + name,
 			"html": message
@@ -180,6 +202,7 @@
 			$("#formNote2")[0].value = "";
 			$("#thanks").addClass("active");
 			callback();
+
 		});
 
 	}

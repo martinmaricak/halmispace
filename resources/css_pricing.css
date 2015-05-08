@@ -84,6 +84,11 @@
 	}
 
 
+	[id="cennik"] [class~="basic"] button {
+		margin-top: 45px;
+	}
+
+
 	[id="cennik"] button {
 
 		float: left;
