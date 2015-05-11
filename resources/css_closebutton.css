@@ -2,6 +2,7 @@
 
 	[id="ponuka"] button[class="close-modal"],
 	[id="cennik"] button[class="close-modal"],
+	[id="prenajom"] button[class="close-modal"],
 	[id="kontakt"] button[class="close-modal"] {
 
 		background-image: url("../images/close.png");
@@ -31,6 +32,13 @@
 
 		margin-top: -234px;
 		margin-left: 414px;
+
+	}
+
+	[id="prenajom"] button[class="close-modal"]{
+
+		margin-top: -270px;
+		margin-left: 420px;
 
 	}
 

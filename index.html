@@ -17,7 +17,8 @@
 
 	<link rel="stylesheet" href="./resources/css_generals.css?5" />
 	<link rel="stylesheet" href="./resources/css_partners.css?5" />
-	<link rel="stylesheet" href="./resources/css_pricing.css?5" />
+	<link rel="stylesheet" href="./resources/css_boxes.css?5" />
+	<link rel="stylesheet" href="./resources/css_rent.css?5" />
 	<link rel="stylesheet" href="./resources/css_contact.css?5" />
 	<link rel="stylesheet" href="./resources/css_background.css?5" />
 	<link rel="stylesheet" href="./resources/css_carousel.css?5" />
@@ -25,8 +26,9 @@
 	<link rel="stylesheet" href="./resources/css_landscape.css?5" />
 	<link rel="stylesheet" href="./resources/css_closebutton.css?5" />
 
-	<meta property="og:title" content="Halmi Space :: Kreatívny coworkinge" />
+	<meta property="og:title" content="Halmi Space :: Kreatívny coworking" />
 	<meta property="og:description" content="HalmiSpace nájdeš medzi vysokými múrmi mestského paláca Halmiho dvor. Spoznáš nás podľa originálnej kaviarne HalmiCaffe, ktorá je miestom nášho neformálneho networkingu." />
+	<meta property="og:image" content="http://halmispace.sk/images/background_2.jpg" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="http://halmispace.sk" />
 
@@ -178,7 +180,7 @@
 
         </div>
 
-        <div class="modal fade" id="cennik" tabindex="-1">
+        <div class="modal fade boxes" id="cennik" tabindex="-1">
 
             <article class="modal-dialog modal-content">
 
@@ -188,7 +190,7 @@
 
 				<div class="basic box">
 
-					<h3>Daily</h3>
+					<h3>Deň</h3>
 					<span class="desc">8€ / DEŇ</span>
 					<hr/>
 					<span class="benefits">Akýkoľvek voľný stôl, rýchly internet, uzamykateľná skrinka od 2€ / deň, tlačiareň od 0,04€ / strana.</span>
@@ -198,7 +200,7 @@
 
 				<div class="standard box">
 
-					<h3>Standard</h3>
+					<h3>Mesiac</h3>
 					<span class="desc">49€ / MESIAC</span>
 					<hr/>
 					<span class="benefits">Akýkoľvek voľný stôl, rýchly internet, uzamykateľná skrinka od 2€ / deň, tlačiareň od 0,04€ / strana <br> <strong> + bikesharing, špecializovaná knižnica, ovocný kôs v rámci F.U.P.</strong></span>
@@ -211,7 +213,7 @@
 					<h3>VIP</h3>
 					<span class="desc">99€ / MESIAC</span>
 					<hr/>
-					<span class="benefits"><strong>Standard</strong> + 20% zľava na konzum, zľavy u našich partnerov. <br> Pripravujeme: stroj času.</em></span>
+					<span class="benefits">Vlastný fixný stôl, skrinka, bikesharing, špecializovaná knižnica, bezplatná tlač a ovocný kôs v rámci F.U.P. <strong>+ 20% zľava na konzum, zľavy u partnerov.</strong></span>
 					<button>Vyskúšaj týždeň zadarmo</button>
 
 				</div>
@@ -224,9 +226,57 @@
 
         </div>
 
+        <div class="modal fade boxes" id="prenajom" tabindex="-1">
+
+            <article class="modal-dialog modal-content">
+
+				<button type="button" class="close-modal" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&nbsp;</span>
+				</button>
+
+				<div class="basic box">
+
+					<h3>Malá eventovka</h3>
+					<span class="desc">30€ / hodina</span>
+					<hr/>
+					<span class="benefits">Kaviarenský priestor <strong>s kapacitou do 50 ľudí</strong> pre menšie firemné akcie, vernisáže, výstavy a iné kultúrne podujatia v príjemnej kaviarenskej atmosfére. *</span>
+					<a href="mailto:rent@halmispace.sk" class="btn">Rezervácia emailom</a>
+
+				</div>
+
+				<div class="standard box">
+
+					<h3>Zasadacia miestnosť</h3>
+					<span class="desc">8€ / hodina</span>
+					<hr/>
+					<span class="benefits">Menší priestor <strong>s kapacitou do 15 ľudí</strong> s konferenčným stolom vhodný pre súkromné stretnutia, porady a pracovné prezentácie v príjemnom prostredí kaviarne priamo v centre mesta. *</span>
+					<a href="mailto:rent@halmispace.sk" class="btn">Rezervácia emailom</a>
+					<a class="by-phone" href="tel:+421903710671">Alebo telefonicky na: +421 903 710 671</a>
+
+				</div>
+
+				<div class="premium box">
+
+					<h3>Veľká eventovka</h3>
+					<span class="desc">35€ / hodina</span>
+					<hr/>
+					<span class="benefits">Priestor <strong>s kapacitou do 100 ľudí</strong> pre stredne veľké a veľké kultúrne podujatia, firemné akcie, filmové večery, tanečné a pohybové aktivity v srdci Košíc. *</span>
+					<a href="mailto:rent@halmispace.sk" class="btn">Rezervácia emailom</a>
+
+				</div>
+
+				<p class="more-offer">
+					* K dispozícii projektor, flipchart a catering podľa potreby. <br> Pri prenájme na pravidelnej báze sa na cene radi dohodneme. <br> Všetky ceny sú uvedené s DPH.
+				</p>
+
+            </article>
+
+        </div>
+
         <nav id="nav">
             <a href="/" class="logo"><img src="images/logo.png" alt="Halmi Coworking"/></a>
-            <a href="#" data-toggle="modal" data-target="#cennik" class="menu">Cenník</a>
+            <a href="#" data-toggle="modal" data-target="#prenajom" class="menu">Prenájom</a>
+            <a href="#" data-toggle="modal" data-target="#cennik" class="menu">Coworking</a>
             <a href="#" data-toggle="modal" data-target="#kontakt" class="menu">Kontakt</a>
         </nav>
 
@@ -244,13 +294,13 @@
 
 			<br/><br/>
 
-			<strong class="partners">— Cenník —</strong>
+			<strong class="partners">— Coworking —</strong>
 
 			<br/>
 
 			<div class="basic box">
 
-				<h3>Daily; <span class="desc">8€ / DEŇ</span></h3>
+				<h3>Deň; <span class="desc">8€ / DEŇ</span></h3>
 				<span class="benefits">Akýkoľvek voľný stôl, rýchly internet, uzamykateľná skrinka od 2€ / deň, tlačiareň od 0,04€ / strana.</span>
 
 			</div>
@@ -258,7 +308,7 @@
 			<div class="standard box">
 
 				<hr/>
-				<h3>Standard; <span class="desc">49€ / MESIAC</span></h3>
+				<h3>Mesiac; <span class="desc">49€ / MESIAC</span></h3>
 				<span class="benefits">Akýkoľvek voľný stôl, rýchly internet, uzamykateľná skrinka od 2€ / deň, tlačiareň od 0,04€ / strana <br> <strong> + bikesharing, špecializovaná knižnica, ovocný kôs v rámci F.U.P.</strong></span>
 
 			</div>
@@ -267,10 +317,56 @@
 
 				<hr/>
 				<h3>VIP; <span class="desc">99€ / MESIAC</span></h3>
-				<span class="benefits"><strong>Standard</strong> + 20% zľava na konzum, zľavy u našich partnerov. <br> Pripravujeme: stroj času.</em></span>
+				<span class="benefits">Vlastný fixný stôl, skrinka, bikesharing, špecializovaná knižnica, bezplatná tlač a ovocný kôs v rámci F.U.P. <strong>+ 20% zľava na konzum, zľavy u partnerov.</strong></span>
+
 			</div>
 
 		</aside>
+
+
+
+
+		<aside class="mobile-only mobile-prices">
+
+			<br/><br/>
+
+			<strong class="partners">— Coworking —</strong>
+
+			<br/>
+
+			<div class="basic box">
+
+				<h3>Malá eventovka; <span class="desc">30€ / hodina</span></h3>
+				<span class="benefits">Kaviarenský priestor <strong>s kapacitou do 50 ľudí</strong> pre menšie firemné akcie, vernisáže, výstavy a iné kultúrne podujatia v príjemnej kaviarenskej atmosfére. *</span>
+
+			</div>
+
+			<div class="standard box">
+
+				<hr/>
+				<h3>Zasadacia miestnosť; <span class="desc">8€ / hodina</span></h3>
+				<span class="benefits">Menší priestor <strong>s kapacitou do 15 ľudí</strong> s konferenčným stolom vhodné pre súkromné stretnutia, porady a pracovné prezentácie. V prostredí kaviarne priamo v centre mesta. *</span>
+
+			</div>
+
+			<div class="premium box">
+
+				<hr/>
+				<h3>Veľká eventovka; <span class="desc">35€ / hodina</span></h3>
+				<span class="benefits">Priestor <strong>s kapacitou do 100 ľudí</strong> pre stredne veľké a veľké kultúrne podujatia, firemné akcie, filmové večery, tanečné a pohybové aktivity v srdci Košíc. *</span>
+
+			</div>
+
+			<p class="more-offer">
+				<hr/>
+				* K dispozícii projektor, flipchart a catering podľa potreby. <br> Pri prenájme na pravidelnej báze sa na cene radi dohodneme. <br> Všetky ceny sú uvedené s DPH.
+			</p>
+
+			<a class="phone-btn" href="tel:+421903710671">Rezervuj telefonicky</a>
+
+        </aside>
+
+
 
 		<aside class="mobile-only mobile-send">
 

@@ -23,6 +23,13 @@
 
 		}
 
+		[id="nav"] [class~="logo"] {
+
+			width: 100%;
+			text-align: center;
+
+		}
+
 
 		[id="nav"] [class="menu"]{
 
@@ -138,7 +145,8 @@
 		}
 
 
-		[class~="mobile-send"] button {
+		[class~="mobile-send"] button,
+		[class~="phone-btn"] {
 
 			border: 2px solid #2677b4;
 			background: #2677b4;
@@ -158,6 +166,33 @@
 			-ms-transition: all 0.5s ease;
 			-o-transition: all 0.5s ease;
 
+
+		}
+
+
+		[class~="phone-btn"] { 
+
+			width: 240px;
+			text-transform: uppercase;
+
+		}
+
+
+		[class~="phone-btn"]:hover {
+
+			text-decoration: none;
+			color: #fff;
+
+			border-color: #19527f;
+			background-color: #19527f;
+			opacity: 0.8;
+			color: white;
+
+			transition: all 0.5s ease;
+			-webkit-transition: all 0.5s ease;
+			-moz-transition: all 0.5s ease;
+			-ms-transition: all 0.5s ease;
+			-o-transition: all 0.5s ease;
 
 		}
 
