@@ -1,0 +1,37 @@
+.my [id="prenajom"] .modal-dialog {
+    height: 500px;
+    background-size: 100% 512px;
+    padding: 0;
+    background-image: url("../images/rent.png");
+    margin-top: -300px;
+}
+
+[id="prenajom"] [class~="standard"] {
+    width: 327px;
+}
+
+[id="prenajom"] a[class~="btn"] {
+    margin: 38px auto 0;
+}
+
+[id="prenajom"] [class~="standard"] a[class~="btn"] {
+    margin-top: 38px;
+    margin-bottom: 16px;
+}
+
+[id="prenajom"] [class~="standard"] {
+    position: relative;
+}
+
+[id="prenajom"] [class~="standard"] a[class~="by-phone"] {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 325px;
+    text-align: center;
+    padding-top: 16px;
+}
+
+[id="prenajom"] h3 {
+    line-height: 1.2;
+}
