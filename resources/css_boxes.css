@@ -122,7 +122,8 @@
     }*/
 
 
-    [class~="boxes"] button:hover {
+    [class~="boxes"] button:hover,
+    [class~="boxes"] a[class~="btn"]:hover {
 
         border-color: #19527f;
         background-color: #19527f;
